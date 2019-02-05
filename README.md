@@ -1,10 +1,11 @@
-# Python-Intern-Task---Web-Crawler
+
+ # Python-Intern-Task---Web-Crawler
 This is a python script. To run this script:
 a)using PyCharm and other python IDE, add URL site  eg 'http://python.org' to the field Parameters in file Running configurations, click apply and ok.Now You can run the script. 
 
 b) using windows command line, go to folder with script, press shift key and use right mouse button click open command window here. write python or python3 'name of script' 'URL site' click enter. 
 
- I write a class WebCrawler to solve this exercise:
+    I write a class WebCrawler to solve this exercise:
     # Constructor WebCrawler class. WebCrawler has 5 fields:
     # 'domain' field is set in constructor and not change value during script work.
     # 'site_dictionary' field contain all the accessible pages within that domain in 'domain' field.
@@ -20,12 +21,12 @@ b) using windows command line, go to folder with script, press shift key and use
         self.set_site = set()
         self.site_title = ""
    
-   # This method print a mapping of that 'domain' (field 'self.site_dictionary')
+    # This method print a mapping of that 'domain' field.
     def print_dictionary(self):
     
     
-   # This method take argument site(it is a site URL).
-   # This method use recursion to solve this exercise. 
+    # This method take argument site(it is a site URL).
+    # This method use recursion to solve this exercise. 
     # This method take title of this site URL, put the name to the self.site_title and
     #  search in site URL, a site that have 'self.domain' in his URL
     # (eg. if in www.abc.org/abcd site URL is www.abc.org/zxc site URL) this www.abc.org/zxc site will be added to the
