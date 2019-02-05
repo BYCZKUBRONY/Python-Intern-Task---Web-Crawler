@@ -30,6 +30,6 @@ WebCrawler has 5 fields:
  This method take title of this site URL, put the name to the self.site_title and
  search in site URL, a site that have 'self.domain' in his URL
  (eg. if in www.abc.org/abcd site URL is www.abc.org/zxc site URL) this www.abc.org/zxc site will be added to the
-  set_site set field becouse have www.abc.org domain. In the end of this method self.site_dictionary will be update
+  set_site set field, becouse have www.abc.org domain. In the end of this method, self.site_dictionary will be update
   on found site title and set_site.
   
