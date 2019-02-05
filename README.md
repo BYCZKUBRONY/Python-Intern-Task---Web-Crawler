@@ -20,8 +20,11 @@ Constructor WebCrawler class. WebCrawler has 5 fields:
  self.visited_site_list = []
  self.set_site = set()
  self.site_title = ""
- This method print a mapping of that 'domain' field.
+ 
  def print_dictionary(self):
+ This method print a mapping of that 'domain' field.
+ 
+ def site_map(self, site):
  This method take argument site(it is a site URL).
  This method use recursion to solve this exercise. 
  This method take title of this site URL, put the name to the self.site_title and
@@ -29,4 +32,4 @@ Constructor WebCrawler class. WebCrawler has 5 fields:
  (eg. if in www.abc.org/abcd site URL is www.abc.org/zxc site URL) this www.abc.org/zxc site will be added to the
   set_site set field. In the end of this method self.site_dictionary will be update
   on found site title and set_site.
-  def site_map(self, site):
+  
