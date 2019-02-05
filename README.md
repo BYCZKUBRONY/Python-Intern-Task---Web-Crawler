@@ -7,7 +7,7 @@ a)using PyCharm and other python IDE, add URL site  eg 'http://python.org' to th
  b) using windows command line, go to folder with script, press shift key and use right mouse button click open command window here. write python or python3 'name of script' 'URL site' click enter. 
 
 I write a class WebCrawler to solve this exercise:
-Constructor WebCrawler class. WebCrawler has 5 fields:
+WebCrawler has 5 fields:
 'domain' field is set in constructor and not change value during script work.
 'site_dictionary' field contain all the accessible pages within that domain in 'domain' field.
 'visited_site_list' field contain all pages that script visited already.
