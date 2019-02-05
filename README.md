@@ -1,9 +1,10 @@
 
 # Python-Intern-Task---Web-Crawler
 This is a python script. To run this script:
+
 a)using PyCharm and other python IDE, add URL site  eg 'http://python.org' to the field Parameters in file Running configurations, click apply and ok.Now You can run the script. 
 
-b) using windows command line, go to folder with script, press shift key and use right mouse button click open command window here. write python or python3 'name of script' 'URL site' click enter. 
+ b) using windows command line, go to folder with script, press shift key and use right mouse button click open command window here. write python or python3 'name of script' 'URL site' click enter. 
 I write a class WebCrawler to solve this exercise:
 Constructor WebCrawler class. WebCrawler has 5 fields:
 'domain' field is set in constructor and not change value during script work.
